@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("nav a").hover(function() {
+                $(this).animate({ fontSize: "1.2em" }, 200);
+            }, function() {
+                $(this).animate({ fontSize: "1em" }, 200);
+            });
+        });
+    </script>
+    <title>Англійська школа "Quelisa"</title>
+</head>
+<body>
+
+    <header>
+        <h1>Ласкаво просимо до англійської школи "Quelisa"</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="school-info">
+            <strong class="school-name">АНГЛІЙСЬКА ШКОЛА "QUELISA"</strong>
+            <p class="school-description">
+                Ласкаво просимо до англійської школи "Quelisa". Ми пропонуємо високоякісні навчальні програми для учнів різних вікових груп та рівнів вивчення англійської мови.
+            </p>
+            <img src="images/schl1.jpg" alt="School Image">
+        </div>
+
+        <h2>Наші послуги</h2>
+        <p>
+            В нашій школі ви знайдете різноманітні курси, спрямовані на покращення навичок читання, письма, вивчення граматики та покращення навичок спілкування англійською мовою.
+        </p>
+        <img src="images/post1.jpeg" alt="Learning Image">
+
+        <h2>Наші вчителі</h2>
+        <p>
+            Наші кваліфіковані та досвідчені вчителі зроблять ваш процес вивчення англійської мови цікавим та ефективним. Вони стежать за вашим прогресом і створюють дружню та мотивуючу атмосферу в класі.
+        </p>
+        <img src="images/teach1.jpg" alt="Teacher Image">
+    </main>
+
+    <footer>
+        <div class="school-info">
+            <strong class="school-name">АНГЛІЙСЬКА ШКОЛА "QUELISA"</strong>
+            <p class="school-description">
+                Школи "Quelisa" можуть відповідати різним віковим групам та рівням вивчення англійської мови. Наші курси розроблені для покращення навичок читання, письма, слухання та говоріння.
+            </p>
+        </div>
+
+        <div class="contact-info">
+            <h3>Контакти</h3>
+            <p>Email: info@quelisa-school.com</p>
+            <p>Телефон: +380665359923</p>
+            <p>Адреса: вул. Шкільна, 123, м. Черкаси</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style2.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Simple animation for nav links
+            $("nav a").hover(function() {
+                $(this).animate({ fontSize: "1.2em" }, 200);
+            }, function() {
+                $(this).animate({ fontSize: "1em" }, 200);
+            });
+        });
+    </script>
+    <title>Англійська школа "Quelisa" - Контакти</title>
+</head>
+<body>
+
+    <header>
+        <h1>Ласкаво просимо до англійської школи "Quelisa"</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Зв'яжіться з нами</h2>
+        <p>Ми будемо раді відповісти на ваші питання. Зв'яжіться з нами за допомогою нижче вказаних контактів:</p>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <h3>Контактна інформація</h3>
+            <p>Email: info@quelisa-school.com</p>
+            <p>Телефон: +380665359923</p>
+            <p>Адреса: вул. Шкільна, 123, м. Черкаси</p>
+        </div>
+    </footer>
+
+</body>
+</html>
